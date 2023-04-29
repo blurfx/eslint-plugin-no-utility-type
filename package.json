@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-no-utility-type",
-  "version": "1.0.0",
+  "version": "1.0.0-doc.1",
   "description": "ESLint plugin to disallow TypeScript utility types",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
