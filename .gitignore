@@ -1,0 +1,6 @@
+.DS_STORE
+.vscode
+.idea
+dist/
+node_modules/
+*.tgz
