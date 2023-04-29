@@ -43,13 +43,13 @@ Use the `types` option to manually set the types to disallow.
 }
 ```
 
-You CANNOT set a user defined that is not a TypeScript built-in type, in which case the linter will report an error.
+You CANNOT set a type that is not a TypeScript built-in type., in which case the linter will report an error.
 
 For example:
 
 ```ts
 // eslint error: User-defined type 'MyRecord' should be allowed
-type MyRecord = Record<string, unknown>;
+type myRecord  = MyRecord<string, unknown>;
 ```
 
 ```json
